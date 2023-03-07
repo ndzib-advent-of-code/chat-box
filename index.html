@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="box-control">
+        <input id="togglebox" type="checkbox">
+
+        <div class="chat-box">
+            <section class="header">
+                <div class="header-imgs">
+                    <img src="https://picsum.photos/seed/person/200/300" alt="" class="chat-img">
+                    <img src="https://picsum.photos/seed/adam/200/300" alt="" class="chat-img">
+                    <img src="https://picsum.photos/seed/rita/200/300" alt="" class="chat-img">
+                </div>
+                <figcaption class="header-details">
+                    <h1>Bruno, Serkwi, Ndzi</h1>
+                    <p>we typically reply in a few minutes</p>
+                </figcaption>
+            </section>
+
+            <section class="body">
+                <div class="message">
+                    <img src="https://picsum.photos/seed/joan/200/300" alt="" class="chat-img">
+                    <div class="message-content">
+                        Hi there! <br>
+                        Looking to get started? I can help answer to your question
+                    </div>
+                </div>
+
+            </section>
+
+            <footer class="footer">
+                <p class="footer-main">
+                    By using the chat, I confirm that I have read the <a href="#">privacy policy</a> and do not object to the use of my personal data.
+                </p>
+                <button class="button">I agree</button>
+            </footer>
+        </div>
+
+        <label class="togglebox close" for="togglebox">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m12 13.4l-4.9 4.9q-.275.275-.7.275t-.7-.275q-.275-.275-.275-.7t.275-.7l4.9-4.9l-4.9-4.9q-.275-.275-.275-.7t.275-.7q.275-.275.7-.275t.7.275l4.9 4.9l4.9-4.9q.275-.275.7-.275t.7.275q.275.275.275.7t-.275.7L13.4 12l4.9 4.9q.275.275.275.7t-.275.7q-.275.275-.7.275t-.7-.275L12 13.4Z"/></svg>
+        </label>
+
+        <label class="togglebox chat" for="togglebox">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 3c5.5 0 10 3.58 10 8s-4.5 8-10 8c-1.24 0-2.43-.18-3.53-.5C5.55 21 2 21 2 21c2.33-2.33 2.7-3.9 2.75-4.5C3.05 15.07 2 13.13 2 11c0-4.42 4.5-8 10-8Z"/></svg>
+        </label>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
